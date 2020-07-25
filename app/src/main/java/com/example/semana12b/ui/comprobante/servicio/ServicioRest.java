@@ -1,6 +1,6 @@
-package com.example.semana12b.ui.servicio;
+package com.example.semana12b.ui.comprobante.servicio;
 
-import com.example.semana12b.ui.entidad.Comprobante;
+import com.example.semana12b.ui.comprobante.entidad.Comprobante;
 
 import java.util.List;
 
@@ -8,7 +8,6 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.DELETE;
 import retrofit2.http.GET;
-import retrofit2.http.POST;
 import retrofit2.http.PUT;
 import retrofit2.http.Path;
 

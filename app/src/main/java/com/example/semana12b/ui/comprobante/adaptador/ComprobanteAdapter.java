@@ -1,4 +1,4 @@
-package com.example.semana12b.ui.adaptador;
+package com.example.semana12b.ui.comprobante.adaptador;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,7 +13,7 @@ import androidx.annotation.Nullable;
 
 
 import com.example.semana12b.MainActivity;
-import com.example.semana12b.ui.entidad.Comprobante;
+import com.example.semana12b.ui.comprobante.entidad.Comprobante;
 import com.example.semana12b.R;
 
 import java.util.List;
@@ -22,8 +22,8 @@ public class ComprobanteAdapter extends ArrayAdapter<Comprobante> {
     private Context context;
     private List<Comprobante> comprobantes;
 
-    public ComprobanteAdapter(Context context, int resource, List<Comprobante> roles) {
-        super(context, resource, roles);
+    public ComprobanteAdapter(Context context, int resource, List<Comprobante> comprobantes) {
+        super(context, resource, comprobantes);
         this.context = context;
         this.comprobantes = comprobantes;
     }

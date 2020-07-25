@@ -1,4 +1,4 @@
-package com.example.semana12b;
+package com.example.semana12b.ui.comprobante;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,9 +12,11 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.semana12b.ui.entidad.Comprobante;
-import com.example.semana12b.ui.servicio.ServicioRest;
-import com.example.semana12b.ui.util.ConnectionRest;
+import com.example.semana12b.MainActivity;
+import com.example.semana12b.R;
+import com.example.semana12b.ui.comprobante.entidad.Comprobante;
+import com.example.semana12b.ui.comprobante.servicio.ServicioRest;
+import com.example.semana12b.ui.comprobante.util.ConnectionRest;
 
 import retrofit2.Call;
 import retrofit2.Callback;

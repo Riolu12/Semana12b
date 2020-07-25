@@ -1,4 +1,4 @@
-package com.example.semana12b.ui.entidad;
+package com.example.semana12b.ui.comprobante.entidad;
 
 public class Comprobante {
     private int idcomprobante;

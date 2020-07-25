@@ -1,4 +1,4 @@
-package com.example.semana12b.ui.util;
+package com.example.semana12b.ui.comprobante.util;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
